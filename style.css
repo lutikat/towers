@@ -1,0 +1,129 @@
+body {
+  background: #ccc;
+  padding: 20px;
+}
+
+.dc {
+  clear: both;
+}
+
+.box {
+  user-select: none;
+  word-break: break-all;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  margin: 4px;
+  background: #00A4DD;
+  position: relative;
+  float: left;
+  top: 0;
+  left: 0;
+  border: 1px #11B5EE solid;
+  text-align: center;
+  font-size: 15px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+
+.ur0 {
+  background: #999999;
+  font-size: 20px;
+}
+
+.ur1 {
+  top: -2px;
+  left: -2px;
+  font-size: 25px;
+  --border: 3px transparent solid;
+}
+
+.ur2 {
+  top: -5px;
+  left: -5px;
+  font-size: 25px;
+  --border: 6px transparent solid;
+}
+
+.ur3 {
+  top: -8px;
+  left: -8px;
+  font-size: 25px;
+  --border: 9px transparent solid;
+}
+
+.ur4 {
+  top: -11px;
+  left: -11px;
+  font-size: 25px;
+  --border: 12px transparent solid;
+}
+
+.ur5 {
+  top: -14px;
+  left: -14px;
+  font-size: 25px;
+  --border: 15px transparent solid;
+}
+
+.ur6 {
+  top: -17px;
+  left: -17px;
+  font-size: 25px;
+  --border: 18px transparent solid;
+}
+
+.ur7 {
+  top: -20px;
+  left: -20px;
+  font-size: 25px;
+  --border: 21px transparent solid;
+}
+
+.ur8 {
+  top: -23px;
+  left: -23px;
+  font-size: 25px;
+  --border: 24px transparent solid;
+}
+
+.ur9 {
+  top: -26px;
+  left: -26px;
+  font-size: 25px;
+  --border: 27px transparent solid;
+}
+
+.box:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 100%;
+  top: 0;
+  border: var(--border, 1px transparent solid);
+  border-left-color: #000;
+  border-bottom-width: 0;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+
+.box:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 100%;
+  left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: var(--border, 1px transparent solid);
+  border-top-color: #000;
+  border-right-width: 0;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+
+.box:hover {
+  background: #DDA4DD;
+}
