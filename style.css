@@ -28,68 +28,75 @@ a{margin-left:10px;}
   -moz-transition: all 0.2s;
 }
 
-.ur0 {
+.outher{
   background: #999999;
   font-size: 20px;
 }
 
-.ur1 {
+.noclick{
+  background: #999999;
+  font-size: 20px;
+}
+
+.lev0{}
+
+.lev1 {
   top: -2px;
   left: -2px;
   font-size: 25px;
   --border: 3px transparent solid;
 }
 
-.ur2 {
+.lev2 {
   top: -5px;
   left: -5px;
   font-size: 25px;
   --border: 6px transparent solid;
 }
 
-.ur3 {
+.lev3 {
   top: -8px;
   left: -8px;
   font-size: 25px;
   --border: 9px transparent solid;
 }
 
-.ur4 {
+.lev4 {
   top: -11px;
   left: -11px;
   font-size: 25px;
   --border: 12px transparent solid;
 }
 
-.ur5 {
+.lev5 {
   top: -14px;
   left: -14px;
   font-size: 25px;
   --border: 15px transparent solid;
 }
 
-.ur6 {
+.lev6 {
   top: -17px;
   left: -17px;
   font-size: 25px;
   --border: 18px transparent solid;
 }
 
-.ur7 {
+.lev7 {
   top: -20px;
   left: -20px;
   font-size: 25px;
   --border: 21px transparent solid;
 }
 
-.ur8 {
+.lev8 {
   top: -23px;
   left: -23px;
   font-size: 25px;
   --border: 24px transparent solid;
 }
 
-.ur9 {
+.lev9 {
   top: -26px;
   left: -26px;
   font-size: 25px;
